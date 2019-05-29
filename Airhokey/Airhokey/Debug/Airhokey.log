@@ -1,0 +1,22 @@
+﻿  Game.cpp
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:  аргумент: преобразование "_Ty" в "int", возможна потеря данных
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:         with
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:         [
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:             _Ty=float
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:         ]
+C:\Dev\Airhokey\Airhokey\Src\ECS\TileComponent.h(42): message :  выполняется компиляция ссылки на экземпляр шаблон функции "T &Entity::addComponent<TransformComponent,float,float,float,float,int>(float &&,float &&,float &&,float &&,int &&)"
+C:\Dev\Airhokey\Airhokey\Src\ECS\TileComponent.h(42): message :         with
+C:\Dev\Airhokey\Airhokey\Src\ECS\TileComponent.h(42): message :         [
+C:\Dev\Airhokey\Airhokey\Src\ECS\TileComponent.h(42): message :             T=TransformComponent
+C:\Dev\Airhokey\Airhokey\Src\ECS\TileComponent.h(42): message :         ]
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:  аргумент: преобразование "_Ty" в "float", возможна потеря данных
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:         with
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:         [
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:             _Ty=int
+C:\Dev\Airhokey\Airhokey\Src\ECS\ECS.h(86,39): warning C4244:         ]
+C:\Dev\Airhokey\Airhokey\Src\Game.cpp(63): message :  выполняется компиляция ссылки на экземпляр шаблон функции "T &Entity::addComponent<TransformComponent,int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)"
+C:\Dev\Airhokey\Airhokey\Src\Game.cpp(63): message :         with
+C:\Dev\Airhokey\Airhokey\Src\Game.cpp(63): message :         [
+C:\Dev\Airhokey\Airhokey\Src\Game.cpp(63): message :             T=TransformComponent
+C:\Dev\Airhokey\Airhokey\Src\Game.cpp(63): message :         ]
+  Airhokey.vcxproj -> C:\Dev\Airhokey\Debug\Airhokey.exe
